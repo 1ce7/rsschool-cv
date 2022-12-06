@@ -24,7 +24,7 @@ I don't have any work experience yet, but here is a link to my first project htt
 ## Education: ##
 * Second-year student of GSTU
 * https://www.freecodecamp.org/certification/fccf9a09830-b289-4e30-866f-5a099175f524/responsive-web-design
-* https://codepen.io/sxpndr/pens/public
+
 
 ## Level of English: ##
  __A2__
