@@ -10,6 +10,9 @@ html {
 * {
   box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+}
 
 body {
   display: flex;
@@ -35,7 +38,7 @@ ul {
 }
 
 .main {
-  background: whitesmoke;
+  /* background: whitesmoke; */
   font-family: Arial;
   font-size: 18px;
   line-height: 1.5em;
@@ -48,8 +51,7 @@ ul {
 }
 
 .container {
-  max-width: 1440px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 
 .main-container {
@@ -63,6 +65,7 @@ ul {
 }
 
 .nav-list {
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -72,7 +75,7 @@ ul {
 .nav-link {
   padding: 30px 24.2px;
   line-height: 35px;
-  color: whitesmoke;
+  color: white;
   font-size: 20px;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
@@ -102,12 +105,21 @@ ul {
   font-weight: 900;
 }
 
-.img {
+.logo-github {
   display: flex;
   margin-left: 20px;
   margin-right: 20px;
+  width: 100px;
+  height: 50px;
 }
+.logo-rsschool {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100px;
+    height: 50px;
+  }
 
-.img p {
+.logo-github p {
   margin-top: 12px;
 }/*# sourceMappingURL=style.css.map */
