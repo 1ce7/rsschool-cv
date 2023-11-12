@@ -1,0 +1,152 @@
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+}
+.contacts-list a {
+  color: rgb(3, 3, 255);
+  transition: 0.3s;
+}
+.education-list a {
+  color: rgb(3, 3, 255);
+  transition: 0.3s;
+}
+.education-list a:hover {
+  color:  rgba(0, 255, 0, 1);
+}
+.contacts-list a:hover {
+  color:  rgba(0, 255, 0, 1);
+}
+.cv-link {
+  color: rgb(3, 3, 255);
+  transition: 0.3s;
+}
+.cv-link:hover {
+  color:  rgba(0, 255, 0, 1);
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+.header {
+  background-color: black;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main {
+  /* background: whitesmoke; */
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.footer {
+  overflow: hidden;
+  height: 50px;
+  background: black;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  width: 90%;
+  padding: 10px;
+  background: rgba(230, 230, 250, 1);
+}
+
+.nav-list {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 10px 20px;
+}
+
+.nav-link {
+  line-height: 35px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.3s;
+  transition: color 0.5s;
+}
+
+.nav-link:hover {
+  color:  rgba(0, 255, 0, 1);
+}
+.section-title {
+  font-size: 20px;
+  /* color: rgba(0, 255, 0, 1); */
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container p {
+  text-align: center;
+  color: white;
+  font-family: Arial;
+  font-weight: 900;
+}
+
+.logo-github {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100px;
+  height: 50px;
+}
+.logo-rsschool {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100px;
+    height: 50px;
+  }
+
+.logo-github p {
+  margin-top: 12px;
+}/*# sourceMappingURL=style.css.map */
