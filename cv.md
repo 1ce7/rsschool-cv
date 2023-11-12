@@ -1,7 +1,7 @@
 # Sergey Savchenko #
 ## Contacts: ##
-* __Discord__: SergeySavchenko(@1ce)
-* __E-mail__: svchnksrg@gmail.com
+* __Discord__:&nbsp;SergeySavchenko(@1ce)
+* __E-mail__:&nbsp;svchnksrg@gmail.com
 * __Phone number__:&nbsp;+375&nbsp;99&nbsp;999-99-99
 
 ## About myself: ##
