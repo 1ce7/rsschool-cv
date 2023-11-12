@@ -1,8 +1,8 @@
 # Sergey Savchenko #
 ## Contacts: ##
-* __Discord__ SergeySavchenko(@1ce)
-* __E-mail__ svchnksrg@gmail.com
-* __Phone number__ +375 99 999-99-99
+* __Discord__:&nbsp;SergeySavchenko(@1ce)
+* __E-mail__:&nbsp;svchnksrg@gmail.com
+* __Phone number__:&nbsp;+375&nbsp;99&nbsp;999-99-99
 
 ## About myself: ##
 I`m a student of GSTU studying industrial electronics. We had a course on the programming language C after that I wanted to study programming and decided to take courses in rs-school.
