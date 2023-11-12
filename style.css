@@ -27,14 +27,37 @@ body {
 .nav-list a {
   text-decoration: none;
 }
-
+.contacts-list a {
+  color: rgb(3, 3, 255);
+  transition: 0.3s;
+}
+.education-list a {
+  color: rgb(3, 3, 255);
+  transition: 0.3s;
+}
+.education-list a:hover {
+  color:  rgba(0, 255, 0, 1);
+}
+.contacts-list a:hover {
+  color:  rgba(0, 255, 0, 1);
+}
+.cv-link {
+  color: rgb(3, 3, 255);
+  transition: 0.3s;
+}
+.cv-link:hover {
+  color:  rgba(0, 255, 0, 1);
+}
 ul {
   padding: 0;
   list-style-type: none;
+  margin: 0;
 }
 
 .header {
-  background-color: rgba(2, 45, 2, 0.746);
+  background-color: black;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .main {
@@ -48,6 +71,8 @@ ul {
   overflow: hidden;
   height: 50px;
   background: black;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .container {
@@ -56,12 +81,14 @@ ul {
 
 .main-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section {
-  width: 50%;
+  width: 90%;
   padding: 10px;
+  background: rgba(230, 230, 250, 1);
 }
 
 .nav-list {
@@ -70,13 +97,13 @@ ul {
   justify-content: space-between;
   align-items: center;
   list-style: none;
+  padding: 10px 20px;
 }
 
 .nav-link {
-  padding: 30px 24.2px;
   line-height: 35px;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
   transition: 0.3s;
@@ -84,13 +111,13 @@ ul {
 }
 
 .nav-link:hover {
-  color: darkred;
+  color:  rgba(0, 255, 0, 1);
 }
-
 .section-title {
-  color: darkred;
+  font-size: 20px;
+  /* color: rgba(0, 255, 0, 1); */
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .footer-container {
